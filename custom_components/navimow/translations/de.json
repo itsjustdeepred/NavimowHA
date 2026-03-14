@@ -2,44 +2,44 @@
   "config": {
     "step": {
       "oauth2_authorize": {
-        "description": "Click 'Confirm' to authorize Home Assistant to access your Navimow account.\n\nYou will be redirected to the Navimow login page to complete authentication."
+        "description": "Klicken Sie auf „Bestätigen“, um Home Assistant den Zugriff auf Ihr Navimow-Konto zu autorisieren.\n\nSie werden zur Navimow-Anmeldeseite weitergeleitet, um die Authentifizierung abzuschließen."
       },
       "user": {
-        "title": "Navimow Integration Configuration",
-        "description": "Configure Navimow lawn mower integration"
+        "title": "Navimow Integration Konfiguration",
+        "description": "Konfiguriere Navimow Rasenmäher Integration"
       },
       "reauth_confirm": {
-        "title": "Re-authentication Required",
-        "description": "Your Navimow authentication has expired. Please re-authenticate to continue using the integration."
+        "title": "Erneute Authentifizierung erforderlich",
+        "description": "Ihre Navimow-Authentifizierung ist abgelaufen. Bitte authentifizieren Sie sich erneut, um die Integration weiterhin zu nutzen."
       }
     },
     "error": {
-      "authorization_failed": "Authorization failed. Please try again.",
-      "token_exchange_failed": "Failed to exchange authorization code for token.",
-      "callback_failed": "Failed to process OAuth2 callback.",
-      "cannot_connect": "Unable to connect to Navimow service.",
-      "invalid_auth": "Authentication failed. Please check your configuration.",
-      "unknown": "An unknown error occurred.",
-      "missing_config": "Missing configuration. Please configure CLIENT_ID and CLIENT_SECRET in const.py."
+      "authorization_failed": "Autorisierung fehlgeschlagen. Bitte versuchen Sie es erneut.",
+      "token_exchange_failed": "Fehler beim Austausch des Autorisierungscodes gegen ein Token.",
+      "callback_failed": "Fehler bei der Verarbeitung des OAuth2-Callbacks.",
+      "cannot_connect": "Verbindung zum Navimow-Dienst nicht möglich.",
+      "invalid_auth": "Authentifizierung fehlgeschlagen. Bitte überprüfen Sie Ihre Konfiguration.",
+      "unknown": "Ein unbekannter Fehler ist aufgetreten.",
+      "missing_config": "Konfiguration fehlt. Bitte konfigurieren Sie CLIENT_ID und CLIENT_SECRET in der Datei const.py."
     },
     "abort": {
-      "single_instance_allowed": "Only one Navimow instance is allowed.",
-      "already_configured": "Navimow is already configured.",
-      "reauth_successful": "Re-authentication successful."
+      "single_instance_allowed": "Nur eine Navimow-Instanz ist zulässig.",
+      "already_configured": "Navimow ist bereits konfiguriert.",
+      "reauth_successful": "Erneute Authentifizierung erfolgreich."
     }
   },
   "options": {
     "step": {
       "init": {
-        "title": "Navimow Options",
-        "description": "Configure Navimow integration options"
+        "title": "Navimow Optionen",
+        "description": "Optionen der Navimow-Integration konfigurieren."
       }
     }
   },
   "entity": {
     "sensor": {
       "battery": {
-        "name": "Battery"
+        "name": "Akku"
       }
     }
   }
